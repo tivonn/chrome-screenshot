@@ -1,0 +1,14 @@
+{
+  "name": "screenshot",
+  "version": "1.0",
+  "description": "a chrome extension for screenshot",
+  "background": {
+    "scripts": ["scripts/background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["declarativeContent"],
+  "manifest_version": 2
+}
