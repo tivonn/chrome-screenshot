@@ -6,9 +6,17 @@
     "scripts": ["scripts/background.js"],
     "persistent": false
   },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["scripts/contentscript.js"]
+  }],
   "page_action": {
     "default_popup": "popup.html"
   },
-  "permissions": ["declarativeContent"],
+  "permissions": ["declarativeContent", "activeTab"],
+  "web_accessible_resources": [
+    "scripts/utils/html2canvas.min.js",
+    "scripts/utils/fileSaver.min.js"
+  ],
   "manifest_version": 2
 }
