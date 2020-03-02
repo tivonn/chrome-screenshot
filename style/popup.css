@@ -1,6 +1,36 @@
-button {
-  width: 30px;
-  height: 30px;
+.dom-input {
+  width: 320px;
+  height: 32px;
+  display: inline-block;
+  padding: 0 10px;
+  background-color: #fff;
+  line-height: 32px;
+  border-radius: 4px;
+  border: 1px solid #ebebeb;
+  box-sizing: border-box;
   outline: none;
+  color: #606266;
+}
+
+.dom-input::-webkit-input-placeholder {
+  color: #999;
+}
+
+.no-dom {
+  display: none;
+  margin-left: 3px;
+  color: #f5222d;
+}
+
+.screenshot {
+  width: 46px;
+  height: 30px;
+  float: right;
+  margin-top: 6px;
   background-color: #409eff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
 }

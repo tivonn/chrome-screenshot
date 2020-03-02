@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <title>screenshot popup</title>
   <link rel="stylesheet" href="style/popup.css">
 </head>
 <body>
-  <button id="screenshot"></button>
+  <input type="text" class="dom-input" placeholder="input dom, e.g., #id1 or .class2, default full screen">
+  <div style="height: 36px;">
+    <p class="no-dom">无匹配的dom节点</p>
+    <button class="screenshot">截图</button>
+  </div>
   <script src="scripts/popup.js"></script>
 </body>
 </html>
