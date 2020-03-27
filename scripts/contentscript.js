@@ -30,7 +30,7 @@ const screenshot = async (dom) => {
       useCORS: true
     }
   )
-  const fileName = `${ document.title ? `${document.title} - ` : ''}${Date.now()}`
+  const fileName = `${ document.title ? `${document.title} - ` : ''}${Date.now()}.png`
   canvas.toBlob(blob => window.saveAs(blob, fileName))
 }
 
