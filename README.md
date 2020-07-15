@@ -1,5 +1,6 @@
 # chrome-screenshot
-a chrome extension for screenshot
+
+a chrome extension for screenshot / chrome截图插件
 
 ## 项目介绍
 
